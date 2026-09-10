@@ -36,7 +36,8 @@ docker run --network mcp-net \
   --host 0.0.0.0 --port 8080 --webui-mcp-proxy
 ```
 > **Note on Proxy & Performance:** The `--webui-mcp-proxy` is sourced from [https://github.com/AlexMidili/duckduckgo-mcp-docker](https://github.com/AlexMidili/duckduckgo-mcp-docker) and requires the `--network mcp-net` flag.
-    The `-c` parameter controls the context size and the amount of VRAM utilized on the GPU. This value can be adjusted as needed. 
+
+> The `-c` parameter controls the context size and the amount of VRAM utilized on the GPU. This value can be adjusted as needed. 
 On the current build, the performance is quite fast, achieving approximately: `tg = 54.25 t/s, tg_3s = 55.29 t/s`.
 
 ## 🖥️ Hardware Used
