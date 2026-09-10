@@ -49,6 +49,9 @@ This configuration was tested on the following hardware:
 
 ## 📚 Resources
 
+### Local MCP duckduckgo for search the web 
+Use https://github.com/AlexMidili/duckduckgo-mcp-docker, may still use baseword search: example "Search for me on yandex.ru weather today"
+
 ### Docker Documentation
 For detailed Docker setup, refer to: https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md
 
